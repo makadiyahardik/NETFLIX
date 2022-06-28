@@ -1,0 +1,54 @@
+.main-three{
+  
+    padding-left: 120px;
+    padding-right: 120px;
+   background-color: #000000;
+   padding-top: 100px;
+   padding-bottom: 80px;
+}
+.main-three .home-three{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+   
+}
+.home-three .right-text{
+    color: white;
+    align-items: center;
+   justify-content: center;
+}
+
+.home-three .right-text h1{
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.home-three .right-text h2{
+    font-size: 2rem;
+    font-weight: 400;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-three .home-three .left-image {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main-three .home-three .left-image img{
+   
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+} 
+.main-three .home-three .another-div{
+    box-sizing: border-box;
+    box-shadow: 5px 5px 8px whitesmoke;
+    color: white;
+    width: 600px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: -100px;
+    z-index: 1;
+}
